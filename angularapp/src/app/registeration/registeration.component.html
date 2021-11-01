@@ -1,0 +1,76 @@
+
+<html lang="en">
+    <head>
+       
+      <title><h1> Sign Up</h1></title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+      
+      <div class="container width=100% height=100%">
+        <div class="card-body shadow-lg p-3 mb-5 bg-white rounded ">
+        <nav class="navbar">
+          <h1 style="color: rgb(61, 228, 20)0, 20);">Sign Up</h1><br><br><br>
+       
+          
+        </nav>
+        <div class="row-3">
+          <div class="col-9">
+    
+    <form #Registerform="ngForm" (ngSubmit)="registerUser()">
+        <small class="text-success">{{msg}}</small>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" placeholder="Enter email" name="email" [(ngModel)]="user.email" required  #email="ngModel"
+    ></div>
+    
+     <br>
+    <div class="form-group">
+        <label for="username">Firstname:</label>
+        <input type="text" class="form-control" placeholder="Enter User Name" name="firstname" [(ngModel)]="user.firstname" #firstname="ngModel" required
+        >
+    
+    </div>
+    <br>
+    <div class="form-group">
+      <label for="Lastname">Lastname:</label>
+      <input type="text" class="form-control" placeholder="Enter User Name" name="lastname" [(ngModel)]="user.lastname" #lastname="ngModel" required
+      >
+  
+  </div>
+    
+    
+      <br>
+    <div class="form-group">
+        <label for="pwd">Password:</label>
+        <input type="password" class="form-control"  placeholder="Enter password" name="password" [(ngModel)]="user.password"  required #password="ngModel"
+        >
+      </div>
+      <br>
+      
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <button type="submit" class="btn btn-default btn-success" >Register</button>
+          </div>
+          
+        </div>
+        </div>
+     <br>
+     <br> <br> 
+      <!--<small [routerLink]="loginUser()">Existing User ? Login here</small>-->
+      <!--<button [routerLink]="['/login']" class="btn btn-lg btn-danger btn-block btn-cancel" type="button">cancel</button>-->
+    </form>
+    <button class="btn btn-default float-left btn-primary" (click)="gotoregistration()">Login here</button>
+    <!--<small class="float-right" (click)="loginUser()">new user ? register here</small>-->
+    </div></div></div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    
+    </body>
+    </html>
