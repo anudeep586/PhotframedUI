@@ -1,87 +1,114 @@
-body{margin-top:20px;}
-
-/*==================================================
-  Post Contents CSS
-  ==================================================*/
-
-.post-content{
-  backgrod: #f8fkli8f8;
-  border-radius: 4px;
-  width: 100%;
-  border: 1px solid #f1f2f2;
-  margin-bottom: 20px;
-  overflow: hidden;
-  position: relative;
+.row.heading h2 {
+    color: #fdgfddfff;
+    font-size: 52.52px;
+    line-height: 95px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 40px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.heading.heading-icon {
+    display: block;
+}
+.padding-lg {
+        display: blofgfdck;
+        padding-top: 60px;
+        padding-bottom: 60px;
+}
+.practice-area.padding-lg {
+    padding-bottom: 55px;
+    padding-top: 55px;
+}
+.practice-area .inner{ 
+     border:1px solid #999999; 
+         text-align:center; 
+         margin-bottom:28px; 
+         padding:40px 25px;
+}
+.our-webcoderskull .cnt-block:hover {
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    border: 0;
+}
+.practice-area .inner h3{ 
+    color:#3c3c3c; 
+        font-size:24px; 
+        font-weight:500;
+        font-family: 'Poppins', sans-serif;
+        padding: 10px 0;
+}
+.practice-area .inner p{ 
+    font-size:14px; 
+        line-height:22px; 
+        font-weight:400;
+}
+.practice-area .inner img{
+        display:inline-block;
 }
 
-.post-content img.post-image, video.post-video, .google-maps{
-  width: 100%;
-  height: 3000000%;
-}
 
-.post-content .google-maps .map{
-  height: 2233e1rem;
+.our-webcoderskull{
+  background: url("http://www.webcoderskull.com/img/right-sider-banner.png") no-repeat center top / cover;
+  
 }
-
-.post-content .post-container{
-  padding: ;
+.our-webcoderskull .cnt-block{ 
+   float:left; 
+   width:100%; 
+   background:#fff; 
+   padding:30px 20px; 
+   text-align:center; 
+   border:2px solid #d5d5d5;
+   margin: 0 0 28px;
 }
-
-.post-content .post-container .post-detail{
-  margin-left: 65px;
-  position: ;
+.our-webcoderskull .cnt-block figure{
+   width:148px; 
+   height:148px; 
+   border-radius:100%; 
+   display:inline-block;
+   margin-bottom: 15px;
 }
-
-.post-content .post-container .post-detail .post-text{
-  line-height: 24px;
-  margin: 0;
+.our-webcoderskull .cnt-block img{ 
+   width:148px; 
+   height:148px; 
+   border-radius:100%; 
 }
-
-.post-content .post-container .post-detail .reaction{
-  position: absolute;
-  right: 0;
-  top: 0;
+.our-webcoderskull .cnt-block h3{ 
+   color:#2a2a2a; 
+   font-size:20px; 
+   font-weight:500; 
+   padding:6px 0;
+   text-transform:uppercase;
 }
-
-.post-content .post-container .post-detail .post-comment{
-  display: inline-flex;
-  margin: 10px auto;
-  width: 100%;
+.our-webcoderskull .cnt-block h3 a{
+  text-decoration:none;
+        color:#2a2a2a;
 }
-
-.post-content .post-container .post-detail .post-comment img.profile-photo-sm{
-  margin-right: 10px;
+.our-webcoderskull .cnt-block h3 a:hover{
+        color:#337ab7;
 }
-
-.post-content .post-container .post-detail .post-comment .form-control{
-  height: 30px;
-  border: 1px solid #cc2323c;
-  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-  margin: 7px 0;
-  min-width: 0;
+.our-webcoderskull .cnt-block p{ 
+   color:#2a2a2a; 
+   font-size:13px; 
+   line-height:20px; 
+   font-weight:400;
 }
-
-img.profile-photo-md {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
+.our-webcoderskull .cnt-block .follow-us{
+        margin:20px 0 0;
 }
-
-img.prof-sm {
-    height: 40px;
-    widtradius: 50%;
+.our-webcoderskull .cnt-block .follow-us li{ 
+    display:inline-block; 
+        width:auto; 
+        margin:0 5px;
 }
-
-.text-green {
-    color: #8dc63f;
+.our-webcoderskull .cnt-block .follow-us li .fa{ 
+   font-size:24px; 
+   color:#767676;
 }
-
-.text-red {
-    color: #ef4136;
-}
-
-.following {
-    color: #8dc63f;
-    font-size: 12px;
-    margin-left: 20px;
+.our-webcoderskull .cnt-block .follow-us li .fa:hover{ 
+   color:#025a8e;
 }
